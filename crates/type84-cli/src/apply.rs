@@ -437,6 +437,8 @@ pub fn section_label(op: WriteOp) -> &'static str {
 mod tests {
     use super::*;
 
+    // flock is a no-op on Windows (no cross-process lock there), so lock semantics are unix-only.
+    #[cfg(unix)]
     #[test]
     fn lock_is_exclusive_and_probe_releases() {
         let dir = std::env::temp_dir().join(format!("type84-apply-lock-{}", std::process::id()));

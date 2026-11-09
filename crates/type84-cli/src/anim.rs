@@ -200,6 +200,8 @@ pub fn parse_seconds(s: &str) -> Result<Duration, String> {
 mod tests {
     use super::*;
 
+    // flock is a no-op on Windows (no cross-process lock there), so lock semantics are unix-only.
+    #[cfg(unix)]
     #[test]
     fn state_round_trip_and_lock() {
         let dir = std::env::temp_dir().join(format!("type84-anim-test-{}", std::process::id()));

@@ -1,0 +1,4 @@
+# Pin the toolchain so CI and local builds see the same clippy lints.
+[toolchain]
+channel = "1.95.0"
+components = ["clippy", "rustfmt"]
