@@ -1,0 +1,432 @@
+{
+  "format": "type84-preset",
+  "format_version": 1,
+  "name": "light-gamedev",
+  "source": "example "gamedev" profile: every key white, Esc in the gamedev overlay colour",
+  "lighting": {
+    "effect": "custom",
+    "brightness": 5,
+    "keys": [
+      {
+        "index": 0,
+        "label": "Esc",
+        "color": "#3D7EFF"
+      },
+      {
+        "index": 1,
+        "label": "F1",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 2,
+        "label": "F2",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 3,
+        "label": "F3",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 4,
+        "label": "F4",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 5,
+        "label": "F5",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 6,
+        "label": "F6",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 7,
+        "label": "F7",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 8,
+        "label": "F8",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 9,
+        "label": "F9",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 10,
+        "label": "F10",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 11,
+        "label": "F11",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 12,
+        "label": "F12",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 99,
+        "label": "Print",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 104,
+        "label": "Home",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 107,
+        "label": "End",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 16,
+        "label": "`",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 17,
+        "label": "1",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 18,
+        "label": "2",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 19,
+        "label": "3",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 20,
+        "label": "4",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 21,
+        "label": "5",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 22,
+        "label": "6",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 23,
+        "label": "7",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 24,
+        "label": "8",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 25,
+        "label": "9",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 26,
+        "label": "0",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 27,
+        "label": "-",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 28,
+        "label": "=",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 92,
+        "label": "Backspace",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 103,
+        "label": "Insert",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 105,
+        "label": "PgUp",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 32,
+        "label": "Tab",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 33,
+        "label": "Q",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 34,
+        "label": "W",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 35,
+        "label": "E",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 36,
+        "label": "R",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 37,
+        "label": "T",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 38,
+        "label": "Y",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 39,
+        "label": "U",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 40,
+        "label": "I",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 41,
+        "label": "O",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 42,
+        "label": "P",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 43,
+        "label": "[",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 44,
+        "label": "]",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 60,
+        "label": "\\",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 106,
+        "label": "Delete",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 108,
+        "label": "PgDn",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 48,
+        "label": "CapsLock",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 49,
+        "label": "A",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 50,
+        "label": "S",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 51,
+        "label": "D",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 52,
+        "label": "F",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 53,
+        "label": "G",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 54,
+        "label": "H",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 55,
+        "label": "J",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 56,
+        "label": "K",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 57,
+        "label": "L",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 58,
+        "label": ";",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 59,
+        "label": "'",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 76,
+        "label": "Enter",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 64,
+        "label": "LShift",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 65,
+        "label": "Z",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 66,
+        "label": "X",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 67,
+        "label": "C",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 68,
+        "label": "V",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 69,
+        "label": "B",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 70,
+        "label": "N",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 71,
+        "label": "M",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 72,
+        "label": ",",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 73,
+        "label": ".",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 74,
+        "label": "/",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 75,
+        "label": "RShift",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 90,
+        "label": "↑",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 80,
+        "label": "LCtrl",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 81,
+        "label": "LWin",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 82,
+        "label": "LAlt",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 83,
+        "label": "Space",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 84,
+        "label": "RAlt",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 85,
+        "label": "Fn",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 87,
+        "label": "RCtrl",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 88,
+        "label": "←",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 89,
+        "label": "↓",
+        "color": "#FFFFFF"
+      },
+      {
+        "index": 91,
+        "label": "→",
+        "color": "#FFFFFF"
+      }
+    ]
+  }
+}

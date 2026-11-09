@@ -1,0 +1,22 @@
+[package]
+name = "type84-hid"
+description = "hidapi transport (read-only by default, opt-in Hall/RT write session) for the IO by Red Square Type 84 Magnetic keyboard"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+authors.workspace = true
+
+[features]
+# Simulated board (`type84_hid::mock`) for tests of crates built on this one.
+mock = []
+
+[dependencies]
+type84-proto = { path = "../type84-proto" }
+thiserror.workspace = true
+hidapi = "2.6"
+
+[dev-dependencies]
+serde_json.workspace = true
+hex.workspace = true

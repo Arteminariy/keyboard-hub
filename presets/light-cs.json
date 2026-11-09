@@ -1,0 +1,12 @@
+{
+  "format": "type84-preset",
+  "format_version": 1,
+  "name": "light-cs",
+  "source": "example "cs" profile: circles («Расходящаяся рябь», key-press reactive) in the cs overlay colour",
+  "lighting": {
+    "effect": "circles",
+    "color": "#FF3B4E",
+    "color_mode": "single",
+    "brightness": 5
+  }
+}

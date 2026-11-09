@@ -1,0 +1,37 @@
+[package]
+name = "type84-gui"
+description = "Keyboard Hub: desktop configurator for the IO by Red Square Type 84 Magnetic keyboard"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "type84-gui"
+path = "src/main.rs"
+
+[dependencies]
+type84-proto = { path = "../type84-proto" }
+type84-hid = { path = "../type84-hid" }
+type84-cli = { path = "../type84-cli" }
+serde_json.workspace = true
+anyhow = "1"
+eframe = { version = "0.37", default-features = false, features = ["accesskit", "default_fonts", "wgpu", "wayland", "x11"] }
+egui = "0.37"
+serde.workspace = true
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+rfd = "0.15.4"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+ksni = { version = "0.3.7", default-features = false, features = ["blocking", "async-io"] }
+
+[target.'cfg(target_os = "windows")'.dependencies]
+tray-icon = "0.26.1"
+
+[dev-dependencies]
+type84-hid = { path = "../type84-hid", features = ["mock"] }
+hex.workspace = true
+egui_kittest = { version = "0.37", features = ["wgpu", "snapshot"] }
+image = { version = "0.25", default-features = false, features = ["png"] }

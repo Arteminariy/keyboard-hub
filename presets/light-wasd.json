@@ -1,0 +1,52 @@
+{
+  "format": "type84-preset",
+  "format_version": 1,
+  "name": "light-wasd",
+  "source": "example: custom per-key lighting, movement keys orange, Esc red; every other key keeps its stored colour",
+  "lighting": {
+    "effect": "custom",
+    "brightness": 4,
+    "keys": [
+      {
+        "index": 34,
+        "label": "W",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 49,
+        "label": "A",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 50,
+        "label": "S",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 51,
+        "label": "D",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 64,
+        "label": "LShift",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 80,
+        "label": "LCtrl",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 83,
+        "label": "Space",
+        "color": "#FF6A00"
+      },
+      {
+        "index": 0,
+        "label": "Esc",
+        "color": "#FF0000"
+      }
+    ]
+  }
+}

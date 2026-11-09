@@ -1,0 +1,12 @@
+# build output
+target/
+# vendor / third-party material kept locally for reverse engineering only
+reference/
+# local keyboard backups (device dumps) and scratch
+backups/
+*.bak
+*.orig
+*.swp
+.DS_Store
+/scratch/
+/tmp/

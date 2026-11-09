@@ -1,0 +1,15 @@
+[package]
+name = "type84-proto"
+description = "Pure protocol codec for the IO by Red Square Type 84 Magnetic keyboard (HFD protocol)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+authors.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+hex.workspace = true

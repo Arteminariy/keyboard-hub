@@ -1,0 +1,28 @@
+[package]
+name = "type84-cli"
+description = "Command-line tool for the IO by Red Square Type 84 Magnetic keyboard"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+authors.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "type84"
+path = "src/main.rs"
+
+[dependencies]
+type84-proto = { path = "../type84-proto" }
+type84-hid = { path = "../type84-hid" }
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+dirs = "6"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+libc = "0.2"
